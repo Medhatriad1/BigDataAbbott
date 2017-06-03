@@ -1,1 +1,29 @@
-https://docs.google.com/document/d/1VQOXfsqGp_aiPzZDIyCN2LrLiLQgO1XDBp3yUfkFIUc/edit
+import turtle
+
+def draw_square():
+    window = turtle.Screen()
+    window.bgcolor("yellow")
+    
+    brad = turtle.Turtle()
+    brad.shape("turtle")
+    brad.color("blue")
+    brad.speed(2)
+    window.title("Welcome to the Medhat Program!")
+
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+
+    angie = turtle.Turtle()
+    angie.shape("arrow")
+    angie.color("blue")
+    angie.circle(100)
+    
+    window.exitonclick()
+    
+draw_square()
